@@ -2,13 +2,13 @@
 
 - [Introduction](#Introduction)
 - [Results](#Results)
-- [Architecture parameters visualization](#Architecture parameters visualization)
+- [Architecture parameters visualization](#visualization)
 - [Usage](#Usage)
 - [Reference](#Reference)
 
 ## Introduction
 
-This repo is an application of PC-DARTS. We search architectures on Webface dataset and evaluate the model on LFW. Official version can be accepted from the link:[yuhuixu1993/PC-DARTS](https://github.com/yuhuixu1993/PC-DARTS)
+This repo is an application of PC-DARTS. We search architectures on Webface dataset and evaluate the model on LFW. Official version can be accepted from the link: [yuhuixu1993/PC-DARTS](https://github.com/yuhuixu1993/PC-DARTS)
 
 In this repo, my works are as below:
 
@@ -48,7 +48,7 @@ we get 10% Webface dataset to search. batch-size 128 case needs 20G memory.
 total 80 epochs, initial learning rate 0.4, linear decay
 data augmentation: color-jittor 0.4, label-smooth 0.2, random erase prob-0.9 mode-const count-1
 
-## Architecture parameters visualization
+## visualization
 
 we visualize all architecture parameters including 8 alpha and 1 beta as below.
 
