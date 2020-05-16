@@ -13,7 +13,7 @@ This repo is an application of PC-DARTS. We search architectures on Webface data
 In this repo, my works are as below:
 
 - sample the proxy task to accelerate the search period
-- design the stems to fit webface dataset resolution
+- design the stems to fit webface dataset
 - use multi-process to accelerate LFW evalution
 - visualize the architecture parameters including alpha and beta by using tensorboard
 - parameters adjustment
