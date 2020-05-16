@@ -52,7 +52,7 @@ data augmentation: color-jittor 0.4, label-smooth 0.2, random erase prob-0.9 mod
 
 we visualize all architecture parameters including 8 alpha and 1 beta as below.
 
-<img src="./image/list.jpg" style=zoom:50%>
+<img src="./image/list.jpg" style=zoom:30%>
 
 `[00, 01, 0, 1, 2, 3]` represents 6 nodes in a cell. `[00, 01]` is input nodes. `ori` represents alpha parameters. `res` represents 8  alphas multiplying betas, which determines which path is selected.
 
